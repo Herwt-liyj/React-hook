@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Eslint 校验代码
+    + eslint-plugin-import :此插件主要为了校验**import/export**语法,防止错误拼写导出名称问题
+    + eslint-plugin-jsx-ally: 提供**jsx**元素可访问性校验
+    + eslint-plugin-react:校验React
+    + eslint-plugin-react-hooks:根据HooksAPI校验Hooks的使用
+    + 参考链接地址：https://segmentfault.com/a/1190000020379876
