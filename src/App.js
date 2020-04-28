@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavList from './pages/navList';
 
 class App extends Component {
   render() {
@@ -22,6 +23,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <h3>导航列表</h3>
+        <NavList />
       </div>
     );
   }
