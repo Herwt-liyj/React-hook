@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavList from './pages/navList';
+import FooterUI from './pages/footerUI';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         </header>
         <h3>导航列表</h3>
         <NavList />
+        <FooterUI />
       </div>
     );
   }

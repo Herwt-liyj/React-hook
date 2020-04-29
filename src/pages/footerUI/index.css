@@ -1,0 +1,15 @@
+.footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    width: 100px;
+    border: 1px solid #ccc;
+    background: #d1bf5a;
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+}
