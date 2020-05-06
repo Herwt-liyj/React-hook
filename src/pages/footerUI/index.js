@@ -5,6 +5,7 @@ class FooterUI extends Component {
     render() {
         return (
             <div className='footer'>
+                FooterUI Component
                 <ul>
                     <li>首页</li>
                     <li>购卡</li>

@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-dom';
+import { NavLink } from 'react-router-dom';
 
 class NavList extends Component {
     render() {
         return (
             <div className="nav-list">
-                <h1>Demo React Hook Nav list for name </h1>
+                <h3>Demo React Hook Nav list for name </h3>
                 <ul>
-                    <li>Form表单</li>
-                    <li>Router路由</li>
+                    <li><NavLink to='/'>home</NavLink></li>
+                    <li><NavLink to='/content'>content</NavLink></li>
+                    <li><NavLink to='/home'>home</NavLink></li>
+                    <li><NavLink to='/user'>user</NavLink></li>
+                    <li><NavLink to='/detail'>detail</NavLink></li>
+                    <li><NavLink to='/form'>form</NavLink></li>
                 </ul>
             </div>
         );
